@@ -8,6 +8,7 @@ public class Good : MonoBehaviour
     void Start()
     {
         Debug.Log("Good");
+        Debug.Log("Nice");
     }
 
     // Update is called once per frame
