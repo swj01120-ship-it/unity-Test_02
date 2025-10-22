@@ -8,6 +8,8 @@ public class Ki : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Debug.Log("branch_practice");
+
         mySR = GetComponent<SpriteRenderer>();  
         Debug.Log("Ki");
     }
