@@ -8,7 +8,9 @@ public class Good : MonoBehaviour
     void Start()
     {
         Debug.Log("Good");
+        Debug.Log("사이사이");
         Debug.Log("Nice");
+        Debug.Log("사이사이");
         Debug.Log("happy");
         Debug.Log("안녕푸바오");
         Debug.Log("사이");
