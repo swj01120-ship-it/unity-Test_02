@@ -13,6 +13,6 @@ public class He : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Debug.Log("red");
     }
 }
