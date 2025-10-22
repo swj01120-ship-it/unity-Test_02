@@ -7,7 +7,7 @@ public class Good : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        debug.log("잘가 푸바오");
+        Debug.Log("잘가 푸바오");
         Debug.Log("Good");
         Debug.Log("사이사이");
         Debug.Log("empty");
