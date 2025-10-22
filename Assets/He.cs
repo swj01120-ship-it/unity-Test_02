@@ -9,6 +9,7 @@ public class He : MonoBehaviour
     void Start()
     {
         mySR = GetComponent<SpriteRenderer>();        
+        mySR = GetComponent<SpriteRenderer>();  
         Debug.Log("hehehehe");
     }
 
@@ -18,11 +19,16 @@ public class He : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Return))
         {
             change_color();
+            Debug.Log("red");
+
         }
         
     }
     void change_color()
     {
+
         mySR.color = Color.red;
+        mySR.color = Color.blue;
+
     }
 }
