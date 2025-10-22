@@ -10,6 +10,7 @@ public class Helloworld : MonoBehaviour
         Debug.Log("Melong");
         Debug.Log("Coffee");
         Debug.Log("aaa");
+        Debug.Log("Ãß°¡");
     }
 
     // Update is called once per frame
