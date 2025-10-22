@@ -5,6 +5,7 @@ using UnityEngine;
 public class Branch : MonoBehaviour
 {
     SpriteRenderer mySR;
+    Coroutine myCoroutine;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,9 +17,19 @@ public class Branch : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Return))
         {
-            change_color();
+            if(myCoroutine ==null)
+            {
+                myCoroutine = StartCoroutine(change_color());
+            }
         }
-        
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            if(myCoroutine != null)
+            {
+                StopCoroutine(myCoroutine);
+                myCoroutine = null;
+            }
+        }
     }
     IEnumerator change_color()
     {
@@ -29,6 +40,7 @@ public class Branch : MonoBehaviour
             if (mySR.color.r == 0)
             {
                 Debug.Log("에볼루션");
+                myCoroutine = null;
                 yield break;
             }
             mySR.color -= myColor;
