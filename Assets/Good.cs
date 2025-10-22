@@ -9,7 +9,7 @@ public class Good : MonoBehaviour
     {
         Debug.Log("Good");
         Debug.Log("Nice");
-        debug.log("happy");
+        Debug.Log("happy");
     }
 
     // Update is called once per frame
