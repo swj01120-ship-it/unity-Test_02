@@ -15,4 +15,22 @@ public class main : MonoBehaviour
     {
         
     }
+    IEnumerator change_color()
+    {
+        Color mycolor = new Color(0.001f, 0.001f, 0.001f, 0.0f);
+
+        while (true)
+        {
+            if (mySR.color.r <= 0)
+            {
+                Debug.Log("¿¡º¼");
+                myCoroutine = null;
+                yield break;
+
+            }
+        }
+        mySR,color -= mycolor;
+        yield return null;
+    }
+    }
 }
