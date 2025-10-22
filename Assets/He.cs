@@ -4,15 +4,26 @@ using UnityEngine;
 
 public class He : MonoBehaviour
 {
+    SpriteRenderer mySR;
     // Start is called before the first frame update
     void Start()
     {
+        mySR = GetComponent<SpriteRenderer>();  
         Debug.Log("hehehehe");
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("red");
+        if(Input.GetKeyDown(KeyCode.Return))
+        {
+            change_color();
+            Debug.Log("red");
+        }
+        
+    }
+    void change_color()
+    {
+        mySR.color = Color.blue;
     }
 }
