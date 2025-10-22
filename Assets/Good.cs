@@ -11,6 +11,8 @@ public class Good : MonoBehaviour
         Debug.Log("Nice");
         Debug.Log("happy");
         Debug.Log("안녕푸바오");
+        Debug.Log("잘가푸바오");
+
     }
 
     // Update is called once per frame
