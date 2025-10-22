@@ -10,15 +10,24 @@ public class Good : MonoBehaviour
         Debug.Log("Good");
         Debug.Log("사이사이");
         Debug.Log("Nice");
+
+        Debug.Log("empty");
         Debug.Log("사이사이");
         Debug.Log("happy");
         Debug.Log("안녕푸바오");
+
+
+        Debug.Log("empty");
         Debug.Log("사이");
+
+        Debug.Log("empty");
+
+        Debug.Log("empty");
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        Debug.Log("empty");
     }
 }
