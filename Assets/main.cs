@@ -47,8 +47,8 @@ public class main : MonoBehaviour
 
             }
         }
-        mySR.color  -= mycolor;
-        yield return null;
+        
+        
     }
     
 }
